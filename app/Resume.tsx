@@ -20,7 +20,7 @@ export default function Resume(props : Props){
                     }}
                     whileInView ={{opacity : 1, x: 0}}
                     src='https://lh3.googleusercontent.com/a/AEdFTp47ruPSo8qausxv8B4lPZTdmg6AQEXA-EY-PA6P=s192-c-rg-br100'
-                    className="rounded-full h-64 w-64"/>
+                    className="rounded-full h-64 w-64 mr-12"/>
                    <motion.ul 
                    initial = {{
                     x : 200,

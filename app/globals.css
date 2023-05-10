@@ -28,5 +28,23 @@ html {
 
 .resume h3 {
     color : #d9740e;
-    
+}
+
+.ResumeContent {
+    flex-shrink: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(55, 53, 47);
+}
+
+.resumeContent li {
+
+    list-style-type: disc;
+}
+
+.resumeContent h4 {
+    margin-left: 0 !important;
 }
