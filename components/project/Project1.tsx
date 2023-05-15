@@ -4,8 +4,8 @@ const Project1 = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="m-auto lg:ml-96 lg:mr-96">
-          <div contentEditable="false" className="space-y-4 mt-4">
+        <div className="m-auto lg:ml-96 lg:mr-96 space-y-2">
+          <div className="space-y-4 mt-4">
             <hr className="border border-black mb-8"></hr>
             <h1 className="text-2xl">
               💻 ShipTraffic Live(K-Digital 1차 프로젝트)

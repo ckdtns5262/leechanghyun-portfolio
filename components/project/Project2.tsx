@@ -4,8 +4,8 @@ const Project2 = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="m-auto lg:ml-96 lg:mr-96">
-          <div contentEditable="false" className="space-y-4 mt-4">
+        <div className="m-auto lg:ml-96 lg:mr-96 space-y-2">
+          <div className="space-y-4 mt-4">
             <hr className="border border-black mb-8"></hr>
             <h1 className="text-2xl">💻 Predict Bit(K-Digital 2차 프로젝트)</h1>
             <div className="flex border-2 border-gray-200 h-12 items-center">
@@ -96,8 +96,6 @@ const Project2 = () => {
                   <GrayText label="Recoil" color="purple" />을 활용한 코인데이터
                   상태관리
                 </li>
-                <li>예측데이터 받아와 코인시세 예측부분 그래프 구현</li>
-                <li></li>
               </ul>
             </div>
           </div>

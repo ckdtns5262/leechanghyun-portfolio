@@ -48,3 +48,12 @@ html {
 .resumeContent h4 {
     margin-left: 0 !important;
 }
+
+.navlist a {
+
+    transform: translateX(-100deg);
+}
+.navlist a:hover{
+   transform: translateX(0);
+   font-size: larger;
+}

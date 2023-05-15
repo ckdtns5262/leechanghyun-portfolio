@@ -6,7 +6,7 @@ export default function Resume(props : Props){
 
     return (
         <section id="resume" className="w-full h-screen">
-            <section className="border border-b-1 p-2">
+            <section className="border border-b-1 p-2 mt-8">
                 <div>
                 <h1 className="text-4xl font-semibold ml-auto lg:ml-96">이창현 | Resume</h1>
                     <div className="flex items-center justify-center mt-5 space-x-5 resume">

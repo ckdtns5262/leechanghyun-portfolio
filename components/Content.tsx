@@ -7,7 +7,7 @@ const Content = (props: Props) => {
     words: [
       " 프론트엔드 개발자를 희망하고 있습니다.",
       " 항상 클라이언트 시선으로 고민하며 생각하며.",
-      "공유의 중요성을 잘 알기에 항상 새기고 실천하려고 노력합니다.",
+      "꾸준함의 중요성을 잘 알기에 항상 실천하려고 노력합니다.",
     ],
     loop: true,
     delaySpeed: 4000,
@@ -19,7 +19,7 @@ const Content = (props: Props) => {
       id="/"
     >
       <div className="mt-36 space-y-10 font-semibold relative">
-        <span className="text-3xl lg:text-5xl">기록과 공유를 좋아하는</span>
+        <span className="text-3xl lg:text-5xl">새로움과 노력을 좋아하는</span>
         <br />
         <p className="text-4xl lg:text-8xl">
           이창현<span className="text-3xl lg:text-5xl">입니다.</span>
