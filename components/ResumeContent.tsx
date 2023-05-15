@@ -6,7 +6,7 @@ import Experience from "@/app/Experience";
 
 const ResumeContent = () => {
   return (
-    <>
+    <div className="">
       <h1 className="mt-8 text-4xl font-semibold ml-auto lg:ml-96 lg:mr-96">
         Introduce
       </h1>
@@ -82,7 +82,7 @@ const ResumeContent = () => {
       {/*Project */}
       <ProjectContent/>
       <Skill/>
-      </>
+      </div>
 
   );
 };

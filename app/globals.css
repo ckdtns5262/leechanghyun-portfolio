@@ -8,6 +8,25 @@ body {
    
 }
 
+.dark-mode {
+    background : black;
+    color : white;
+}
+.dark-mode section {
+    background : black;
+    color : white;
+}
+.dark-mode section p {
+    background : black;
+    color : white;
+}
+
+.dark {
+    
+}
+
+
+
 #__next {
     @apply h-full;
 }
