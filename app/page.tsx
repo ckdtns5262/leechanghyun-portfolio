@@ -6,14 +6,13 @@ import Content from "@/components/Content";
 import { AiOutlineDown } from "react-icons/ai";
 
 
-export default function Home(props:any) {
+export default function Home() {
 
 
-console.log(props)
   return (
     <>
-      <div className={`relative w-full h-screen text-white bg-[url('/images/bg1.jpg')] bg-fixed bg-cover bg-center bg-no-repeat 
-     ` }>
+      <div className={`relative w-full h-screen text-white bg-[url('/images/bg1.jpg')] bg-fixed bg-cover 
+      bg-center bg-no-repeat `}>
         <div className="bg-black w-full h-full bg-opacity-50">
           <Navbar />
           <Content/>
@@ -31,7 +30,7 @@ console.log(props)
           </motion.div>
         </div>
       </div>
-      <Resume />
+      <Resume/>
     </>
   );
 }

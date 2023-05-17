@@ -19,7 +19,7 @@ const Content = (props: Props) => {
       id="/"
     >
       <div className="mt-36 space-y-10 font-semibold relative">
-        <span className="text-3xl lg:text-5xl">새로움과 노력을 좋아하는</span>
+        <span className="text-3xl lg:text-5xl">끊임없이 고민하고 새로움을 추구하는</span>
         <br />
         <p className="text-4xl lg:text-8xl">
           이창현<span className="text-3xl lg:text-5xl">입니다.</span>

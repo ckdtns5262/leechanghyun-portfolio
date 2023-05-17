@@ -1,15 +1,17 @@
+
 import ResumeContent from "@/components/ResumeContent"
 import {motion} from 'framer-motion'
+import React, { useEffect } from "react"
 
 
-type Props = {}
-export default function Resume(props : Props){
 
+
+export default function Resume(){
 
 
 
     return (
-        <section id="resume" className="w-full h-screen ">
+        <section id="resume" className={``}>
             <section className="p-2">
                 <div className="border-border-b-1 mt-8"/>
                 <div>
@@ -54,3 +56,4 @@ export default function Resume(props : Props){
         </section>
     )
 }
+

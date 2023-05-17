@@ -21,8 +21,9 @@ body {
     color : white;
 }
 
-.dark {
-    
+.dark-mode .navbar {
+    background: white;
+    color : black;
 }
 
 
@@ -75,4 +76,5 @@ html {
 .navlist a:hover{
    transform: translateX(0);
    font-size: larger;
+   border-bottom: skyblue solid 3px
 }
