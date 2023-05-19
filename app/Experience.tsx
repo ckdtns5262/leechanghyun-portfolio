@@ -2,7 +2,7 @@ const Experience = () => {
   return (
     <div> 
       <div className="flex flex-col">
-        <div className="m-auto lg:ml-96 lg:mr-96">
+        <div className=" lg:ml-96 lg:mr-96">
           <div className="space-y-4 mt-4">
             <hr className="border border-black mb-8"></hr>
             <div className="flex flex-row">
@@ -15,9 +15,9 @@ const Experience = () => {
                   </a>
                 </p>
               </div>
-              <div className="w-24"/>
+              <div className="w-10 lg:w-28"/>
               <div className="dev-list">
-                <ul className="ml-16 list-disc space-y-2">
+                <ul className="ml-11 list-disc space-y-2">
                   <li>
                     Next.js 13버젼을 활용하여 FullStack 웹개발 진행하였습니다.{" "}
                   </li>
@@ -45,7 +45,7 @@ const Experience = () => {
 
       {/* Apple clone */}
       <div className="flex flex-col">
-        <div className="m-auto lg:ml-96 lg:mr-96">
+        <div className="lg:ml-96 lg:mr-96">
           <div className="space-y-4 mt-4">
             <hr className="border border-black mb-8"></hr>
             <div className="flex flex-row">
@@ -56,7 +56,7 @@ const Experience = () => {
                   <a href="https://github.com/ckdtns5262/Apple">(깃허브링크)</a>
                 </p>
               </div>
-              <div className="w-24" />
+              <div className="w-4 lg:w-24" />
               <div className="dev-list">
                 <ul className="ml-11 list-disc space-y-2">
                   <li>퍼블리싱 능력향상을 위해 애플페이지 클론</li>

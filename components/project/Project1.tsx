@@ -4,7 +4,7 @@ const Project1 = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="m-auto lg:ml-96 lg:mr-96 space-y-2">
+        <div className=" lg:ml-96 lg:mr-96 space-y-2">
           <div className="space-y-4 mt-4">
             <hr className="border border-black mb-8"></hr>
             <h1 className="text-2xl">
@@ -80,9 +80,9 @@ const Project1 = () => {
                 구현한 기능
               </h2>
             </div>
-            <div className="w-24" />
+            <div className="lg:w-32 w-24" />
             <div className="dev-list">
-              <ul className="list-disc space-y-2 ml-6">
+              <ul className="list-disc space-y-2">
                 <li>
                   <GrayText label="GoogleMap API" color="purple" />를 활용하여
                   선박의 위치 표시

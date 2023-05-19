@@ -3,6 +3,7 @@ import {motion} from 'framer-motion'
 import Navbar from "@/components/Navbar";
 import Resume from "./Resume";
 import Content from "@/components/Content";
+import Footer from '@/components/Footer';
 import { AiOutlineDown } from "react-icons/ai";
 
 
@@ -31,6 +32,7 @@ export default function Home() {
         </div>
       </div>
       <Resume/>
+      <Footer/>
     </>
   );
 }

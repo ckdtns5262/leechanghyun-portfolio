@@ -46,7 +46,7 @@ const ResumeContent = () => {
           Dev Experience
         </h1>
         <div className="flex flex-col">
-          <div className="m-auto lg:ml-96 lg:mr-96">
+          <div className="lg:ml-96 lg:mr-96">
             <div className="space-y-4 mt-4">
               <hr className="border border-black mb-8"></hr>
               <div className="flex flex-row">
@@ -54,7 +54,7 @@ const ResumeContent = () => {
                   <h2>K-Digital 풀스텍 웹서비스 SW <br/>개발자 과정</h2>
                   <p className="text-gray-400">2022.09 ~ 2023.03</p>
                 </div>
-                <div className="w-24" />
+                <div className="w-6 lg:w-24"/>
                 <div className="dev-list">
                   <ul className="ml-11 list-disc space-y-2">
                     <li>HTML,CSS,JavaScript를 학습하고 활용하였습니다.</li>

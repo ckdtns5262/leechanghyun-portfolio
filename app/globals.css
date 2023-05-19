@@ -20,6 +20,10 @@ body {
     background : black;
     color : white;
 }
+.dark-mode section li span {
+    background : black;
+    color : white;
+}
 
 .dark-mode .navbar {
     background: white;
@@ -76,5 +80,5 @@ html {
 .navlist a:hover{
    transform: translateX(0);
    font-size: larger;
-   border-bottom: skyblue solid 3px
+   border-bottom: yellowgreen solid 3px
 }
