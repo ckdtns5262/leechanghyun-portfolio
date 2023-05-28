@@ -17,7 +17,7 @@ export default function DarkMode() {
 
 
     return (
-        <div className="flex absolute z-40 text-white ">
+        <div className="flex absolute z-20 text-white ">
             <button 
             onClick={() => {
                 if (cookieValue == 'light') {

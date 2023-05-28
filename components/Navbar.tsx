@@ -27,7 +27,7 @@ const Navbar = () => {
                 <li><Link href='#resume' onClick={handleScroll}  >Resume</Link></li>
                 <li><Link href='https://github.com/ckdtns5262'>Github</Link></li>
                 <li><Link href='#project' onClick={handleScroll}>Project</Link></li>
-                <li><Link href='/contact'>Contact</Link></li>
+                <li><Link href='/more'>More</Link></li>
             </ul>
         </div>
     </div>
